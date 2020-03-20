@@ -1,0 +1,63 @@
+{
+  "name": "hak",
+  "version": "0.1.0",
+  "description": "An example package to demonstrate Yarn",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "bcrypt": "^3.0.6",
+    "axios": "^0.17.1",
+    "body-parser": "^1.19.0",
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "express-session": "^1.16.2",
+    "mongodb": "^3.3.0-beta2",
+    "mongoose-morgan": "^1.0.12",
+    "radium": "^0.25.2",
+    "react": "^16.13.0",
+    "react-animations": "^1.0.0",
+    "react-bootstrap": "^1.0.0-beta.9",
+    "react-dom": "^16.13.0",
+    "react-ionicons": "^3.0.1",
+    "react-redux": "^7.1.0",
+    "react-router-dom": "^5.1.2",
+    "react-s-alert": "^1.4.1",
+    "react-scripts": "0.9.5",
+    "redux": "^4.0.4",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.87.3",
+    "sha256": "^0.2.0",
+    "uuid": "^3.3.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test  --env=jsdom",
+    "eject": "react-scripts eject",
+    "api": "nodemon ./server/server.js",
+    "dev": "concurrently \"react-scripts start\" \"nodemon ../server/server.js\"",
+    "server": "nodemon ../server/server.js"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.1",
+    "nodemon": "^1.17.5"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "http://localhost:3000"
+}
