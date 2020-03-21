@@ -43,7 +43,7 @@ class NavTabs extends Component {
             {loggedIn ? (
               <section className="nav-items">
                 <Link to="#" className="nav-items" onClick={this.logout}>
-                  <span className="text-secondary">logout</span></Link>
+                  <span className="text-secondary">Logout</span></Link>
 
               </section>
             ) : (
@@ -55,12 +55,6 @@ class NavTabs extends Component {
                       <span className="nav-items">Home</span>
                     </Link>
                   </li>
-                  {/* <li className="  nav-content  "
-                  >
-                    <Link to="/about" >
-                      <span className="  nav-items">About us</span>
-                    </Link>
-                  </li> */}
                   <li className="  nav-content  "
                   >
                     <Link to="/gallery" >
