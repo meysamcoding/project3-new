@@ -15,17 +15,14 @@ function Footer(props) {
 
       <ul class="footer__nav">
         <li class="nav__item">
-          <h2 class="nav__title">Photography Styles</h2>
-
+          <h2 class="nav__title">Photography Styles:</h2>
           <ul class="nav__ul">
             <li>
               <a href="#">Portrait Photography</a>
             </li>
-
             <li>
               <a href="#">Fashion Photography</a>
             </li>
-
             <li>
               <a href="#">Weeding / Event Photography</a>
             </li>
@@ -59,7 +56,7 @@ function Footer(props) {
         </li>
 
         <li class="nav__item">
-          <h2 class="nav__title">about us</h2>
+          <h2 class="nav__title">Contact</h2>
 
           <ul class="nav__ul">
             <li>
@@ -71,7 +68,7 @@ function Footer(props) {
             </li>
 
             <li>
-              <a href="#">Addres : 1234 nice street</a>
+              <a href="#">Address : 1234 nice street</a>
             </li>
           </ul>
         </li>

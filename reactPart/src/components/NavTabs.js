@@ -55,12 +55,6 @@ class NavTabs extends Component {
                       <span className="nav-items">Home</span>
                     </Link>
                   </li>
-                  {/* <li className="  nav-content  "
-                  >
-                    <Link to="/about" >
-                      <span className="  nav-items">About us</span>
-                    </Link>
-                  </li> */}
                   <li className="  nav-content  "
                   >
                     <Link to="/gallery" >
