@@ -5,19 +5,12 @@ import { Redirect } from 'react-router-dom'
 import { Route, Link } from 'react-router-dom'
 
 import '../../src/App.css'
-
-
-
-
-
 import axios from 'axios'
 
 class NavTabs extends Component {
   constructor() {
     super()
     this.logout = this.logout.bind(this)
-
-
   }
 
 
@@ -64,12 +57,6 @@ class NavTabs extends Component {
                   </li>
                   <li className="  nav-content  "
                   >
-                    <Link to="/about" >
-                      <span className="  nav-items">About us</span>
-                    </Link>
-                  </li>
-                  <li className="  nav-content  "
-                  >
                     <Link to="/gallery" >
                       <span className="  nav-items">Gallery</span>
                     </Link>
@@ -80,17 +67,20 @@ class NavTabs extends Component {
                       <span className="  nav-items">Contact us</span>
                     </Link>
                   </li>
-                  <li className="  nav-content  ">
-                    <Link to="/login" >
-                      <span className="  nav-items">Login</span>
+                   
+                    <li className="nav-content" >
+                    <Link to="/login"  >
+                      <span className="nav-items" id="rightside">Login</span>
                     </Link>
                   </li>
 
-                  <li className="  nav-content  ">
-                    <Link to="/sign" >
-                      <span className="  nav-items">Sign up</span>
+                  <li className="  nav-content">
+                    <Link to="/sign"  >
+                      <span className="  nav-items" id="rightside">Sign Up</span>
                     </Link>
                   </li>
+                  
+                  
                 </ul>
               )}
           </div>

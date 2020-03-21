@@ -9,4 +9,5 @@
 /* CSS for Home page */
 .homephoto {
     background-image: url(../../img/GEV_7.jpg);
+    background-repeat: repeat-y;
 }
