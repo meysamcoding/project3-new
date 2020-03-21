@@ -1,10 +1,10 @@
 import React from "react";
 
-import Footer from './Footer';
+import './App.css'
 
 function Home() {
   return (
-    <div>
+    <div className="design main">
       <h1>Welcome to our agency</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque velit, lobortis ut magna

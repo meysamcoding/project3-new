@@ -4,7 +4,7 @@ import './gallery.css';
 
 function Gallery() {
   return (
-    <div>
+    <div className="main">
       <h1>Gallery Page</h1>
       <div class="gallerybox">
       <div class="row">

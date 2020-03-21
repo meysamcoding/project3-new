@@ -47,7 +47,7 @@ class NavTabs extends Component {
 
               </section>
             ) : (
-                <ul className="nav-items">
+                <ul className=" ">
 
                   <li className="  nav-content  "
                   >

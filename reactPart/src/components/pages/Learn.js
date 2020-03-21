@@ -37,7 +37,9 @@ class App extends React.Component {
 
   render() {
     return (
+      
       <div className="App">
+        <h1>Contact Form</h1>
       <form id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
       <div className="form-group">
         	<label htmlFor="name">Name</label>
@@ -49,7 +51,7 @@ class App extends React.Component {
       </div>
       <div className="form-group">
         	<label htmlFor="message">Message</label>
-        	<textarea className="form-control" rows="5" id="message" value={this.state.message} onChange={this.onMessageChange.bind(this)} />
+        	<textarea className="form-group" rows="5" id="message" value={this.state.message} onChange={this.onMessageChange.bind(this)} />
       </div>
       <button type="submit" className="btn btn-primary">Submit</button>
       </form>
