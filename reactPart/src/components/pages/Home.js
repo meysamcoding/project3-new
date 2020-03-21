@@ -1,7 +1,7 @@
 import React from "react";
 import '../pages/App.css';
 import {GEV_7} from "../../img";
-import Footer from './Footer';
+ 
 
 function Home() {
   return (
