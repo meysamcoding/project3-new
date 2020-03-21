@@ -59,14 +59,14 @@ class LoginForm extends Component {
             return <Redirect to={{ pathname: this.state.redirectTo }} />
         } else {
             return (
-                <div>
-                    <h4></h4>
+                <div className="App">
+                    <h4>Log in</h4>
                     <form className="App">
                         <div className="form-group">
-                            <div className="col-1 col-ml-auto">
+                            <div className=" ">
                                 <label className="form-label" htmlFor="username">Username</label>
                             </div>
-                            <div className="col-3 col-mr-auto">
+                            <div className="">
                                 <input className="form-input"
                                     type="text"
                                     id="username"
@@ -78,10 +78,10 @@ class LoginForm extends Component {
                             </div>
                         </div>
                         <div className="form-group">
-                            <div className="col-1 col-ml-auto">
+                            <div className=" ">
                                 <label className="form-label" htmlFor="password">Password: </label>
                             </div>
-                            <div className="col-3 col-mr-auto">
+                            <div className=" ">
                                 <input className="form-input"
                                     placeholder="password"
                                     type="password"
@@ -92,9 +92,9 @@ class LoginForm extends Component {
                             </div>
                         </div>
                         <div className=" ">
-                            <div className="col-7"></div>
+                            <div className=" "></div>
                             <button
-                                className="btn btn-primary col-1 col-mr-auto"
+                                className="btn btn-primary c "
                                
                                 onClick={this.handleSubmit}
                                 type="submit">Login</button>
