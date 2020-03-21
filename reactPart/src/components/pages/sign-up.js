@@ -54,7 +54,7 @@ class Signup extends Component {
 	render() {
 		return (
 			<div className="SignupForm">
-				<h4>Sign up</h4>
+				<h4></h4>
 				<form className="App">
 					<div className="form-group">
 						<div className="col-1 col-ml-auto">

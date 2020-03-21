@@ -59,7 +59,7 @@ class NavTabs extends Component {
                   <li className="  nav-content  "
                   >
                     <Link to="/"  >
-                      <span className="nav-items">home</span>
+                      <span className="nav-items">Home</span>
                     </Link>
                   </li>
                   <li className="  nav-content  "
@@ -71,7 +71,7 @@ class NavTabs extends Component {
                   <li className="  nav-content  "
                   >
                     <Link to="/gallery" >
-                      <span className="  nav-items">gallery</span>
+                      <span className="  nav-items">Gallery</span>
                     </Link>
                   </li>
                   <li className="  nav-content  "
@@ -82,13 +82,13 @@ class NavTabs extends Component {
                   </li>
                   <li className="  nav-content  ">
                     <Link to="/login" >
-                      <span className="  nav-items">login</span>
+                      <span className="  nav-items">Login</span>
                     </Link>
                   </li>
 
                   <li className="  nav-content  ">
                     <Link to="/sign" >
-                      <span className="  nav-items">sign up</span>
+                      <span className="  nav-items">Sign up</span>
                     </Link>
                   </li>
                 </ul>

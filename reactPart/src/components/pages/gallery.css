@@ -4,3 +4,9 @@
     margin-right: auto;
     margin-left: auto;
 }
+
+
+/* CSS for Home page */
+.homephoto {
+    background-image: url(../../img/GEV_7.jpg);
+}
