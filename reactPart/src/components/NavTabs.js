@@ -43,7 +43,7 @@ class NavTabs extends Component {
             {loggedIn ? (
               <section className="nav-items">
                 <Link to="#" className="nav-items" onClick={this.logout}>
-                  <span className="text-secondary">logout</span></Link>
+                  <span className="text-secondary">Logout</span></Link>
 
               </section>
             ) : (

@@ -10,4 +10,6 @@
 .homephoto {
     background-image: url(../../img/GEV_7.jpg);
     background-repeat: repeat-y;
+    width: 1000px;
+
 }
