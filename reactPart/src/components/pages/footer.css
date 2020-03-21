@@ -12,7 +12,7 @@
     display: grid;
     grid-template-rows: auto 1fr auto;
     font-size: 14px;
-    background-color: #f4f4f4;
+    background-color: #1d1d1d;
     align-items: start;
     min-height: 100vh;
   }
@@ -24,8 +24,8 @@
     position: fixed;
     flex-flow: row wrap;
     padding: 1px 30px 1px 30px;
-    color: #2f2f2f;
-    background-color: #fff;
+    color: white;
+    background-color: #1d1d1d;
     border-top: 1px solid #e5e5e5;
   }
   
@@ -58,7 +58,7 @@
   
   .footer address {
     font-style: normal;
-    color: #999;
+    color: white;
   }
   
   .footer__btn {
@@ -69,7 +69,7 @@
     max-width: max-content;
     background-color: rgb(33, 33, 33, 0.07);
     border-radius: 100px;
-    color: #2f2f2f;
+    color: white;
     line-height: 0;
     margin: 0.6em 0;
     font-size: 1rem;
@@ -100,7 +100,7 @@
   }
   
   .nav__ul a {
-    color: #999;
+    color: white;
   }
   
   .nav__ul--extra {

@@ -18,7 +18,7 @@ function Home() {
         malesuada fames ac ante ipsum primis in faucibus.
       </p>
       <div className="homephoto">
-      <img class="responsive-img" style={{ height: '320px', width: '320px' }} src={GEV_7}></img>
+      <img class="responsive-img" style={{ width: '500px', borderRadius: '50%'}} src={GEV_7}></img>
       </div> 
     </div>
 
