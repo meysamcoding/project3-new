@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios'
- 
-import { BrowserRouter as Router, Route,Link } from "react-router-dom";
+
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import NavTabs from "./components/NavTabs";
 import Home from "./components/pages/Home";
 import About from "./components/pages/About";
@@ -10,6 +10,7 @@ import Contact from "./components/pages/Contact";
 import Learn from "./components/pages/Learn";
 import sign from "./components/pages/sign-up";
 import login from "./components/pages/login-form";
+import Footer from './components/pages/Footer';
 
 class App extends Component {
   constructor() {
@@ -28,7 +29,7 @@ class App extends Component {
     this.getUser()
   }
 
-  updateUser (userObject) {
+  updateUser(userObject) {
     this.setState(userObject)
   }
 
@@ -53,22 +54,31 @@ class App extends Component {
     })
   }
   render() {
-  return (
-    <Router>
-      <div>
-        <NavTabs />
-        <Route exact path="/" component={Home} />
-        <Route exact path="/about" component={About} />
-        <Route exact path="/gallery" component={Gallery} />
-        <Route path="/contact" component={Contact} />
-        <Route path="/Learn" component={Learn} />
-        <Route path="/sign" component={sign} />
-        <Route path="/login" component={login} />
-         
-      </div>
-    </Router>
-  );
-}
+    return (
+      <Router>
+        <div>
+          <NavTabs />
+          <Route exact path="/" component={Home} />
+          <Route exact path="/about" component={About} />
+          <Route exact path="/gallery" component={Gallery} />
+          <Route path="/contact" component={Contact} />
+          <Route path="/Learn" component={Learn} />
+          <Route path="/sign" component={sign} />
+          <Route path="/login" component={login} />
+
+        </div>
+        <div>
+          <Footer />
+        </div>
+      </Router>
+
+
+
+
+
+
+    );
+  }
 }
 
 export default App;
