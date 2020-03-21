@@ -5,19 +5,12 @@ import { Redirect } from 'react-router-dom'
 import { Route, Link } from 'react-router-dom'
 
 import '../../src/App.css'
-
-
-
-
-
 import axios from 'axios'
 
 class NavTabs extends Component {
   constructor() {
     super()
     this.logout = this.logout.bind(this)
-
-
   }
 
 
@@ -59,7 +52,7 @@ class NavTabs extends Component {
                   <li className="  nav-content  "
                   >
                     <Link to="/"  >
-                      <span className="nav-items">home</span>
+                      <span className="nav-items">Home</span>
                     </Link>
                   </li>
                   <li className="  nav-content  "
@@ -71,7 +64,7 @@ class NavTabs extends Component {
                   <li className="  nav-content  "
                   >
                     <Link to="/gallery" >
-                      <span className="  nav-items">gallery</span>
+                      <span className="  nav-items">Gallery</span>
                     </Link>
                   </li>
                   <li className="  nav-content  "
@@ -80,17 +73,20 @@ class NavTabs extends Component {
                       <span className="  nav-items">Contact us</span>
                     </Link>
                   </li>
-                  <li className="  nav-content  ">
-                    <Link to="/login" >
-                      <span className="  nav-items">login</span>
+                   
+                    <li className="nav-content" >
+                    <Link to="/login"  >
+                      <span className="nav-items" id="rightside">Login</span>
                     </Link>
                   </li>
 
-                  <li className="  nav-content  ">
+                  <li className="  nav-content">
                     <Link to="/sign" >
-                      <span className="  nav-items">sign up</span>
+                      <span className="  nav-items" id="rightside">Sign Up</span>
                     </Link>
                   </li>
+                  
+                  
                 </ul>
               )}
           </div>

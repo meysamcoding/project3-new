@@ -6,13 +6,14 @@ html {
 
 body {
   box-sizing: border-box;
-  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .App-1 {
-    display: flex;
+     
     background-color: burlywood;
-    
+    overflow: hidden;
      
     width: 100%;
      
@@ -51,20 +52,18 @@ body {
      
   
    .nav-content {
-    display:block;
+    display: inline;
      color: rgb(40, 41, 40);
     padding:  10px;
     margin: 10 auto;
-    float:left;
+     
     font-size: 15px;
-    justify-content: space-between;
-    align-items: center;
-    height: 100%;
+     
+    text-align: center;
+     
   }
   
-  .nav-items {
-     
-    
+  .nav-items { 
     
     color: #333;
   }
@@ -72,6 +71,12 @@ body {
   .nav-items:hover {
     color: rgb(247, 245, 245);
     cursor: pointer;
+  }
+  #rightside{
+    padding:  10px;
+    margin: 10 auto;
+    
+    float: right;
   }
   
   
