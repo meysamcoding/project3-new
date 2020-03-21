@@ -53,15 +53,15 @@ class Signup extends Component {
 
 	render() {
 		return (
-			<div className="SignupForm">
-				<h4></h4>
-				<form className="App">
+			<div className="App ">
+				<h4>Sign Up</h4>
+				<form className="form-group ">
 					<div className="form-group">
-						<div className="col-1 col-ml-auto">
+						<div className=" ">
 							<label className="form-label" htmlFor="username">Username</label>
 						</div>
-						<div className="col-3 col-mr-auto">
-							<input className="form-input"
+						<div className="">
+							<input className=" "
 								type="text"
 								id="username"
 								name="username"
@@ -72,10 +72,10 @@ class Signup extends Component {
 						</div>
 					</div>
 					<div className="form-group">
-						<div className="col-1 col-ml-auto">
-							<label className="form-label" htmlFor="password">Password: </label>
+						<div className=" ">
+							<label className=" " htmlFor="password">Password: </label>
 						</div>
-						<div className="col-3 col-mr-auto">
+						<div className=" ">
 							<input className="form-input"
 								placeholder="password"
 								type="password"
@@ -86,9 +86,9 @@ class Signup extends Component {
 						</div>
 					</div>
 					<div className=" ">
-						<div className="col-7"></div>
+						<div className=" "></div>
 						<button
-							className="btn btn-primary col-1 col-mr-auto"
+							className="btn btn-primary  "
 							onClick={this.handleSubmit}
 							type="submit"
 						>Sign up</button>
