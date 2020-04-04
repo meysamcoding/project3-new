@@ -23,6 +23,10 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.
 Your app is ready to be deployed!
 
+
+Languages we use:
+HTML,CSS, JavaScript, ReactApp, Jquey, MongoDB, node.js
+
 See the section about deployment for more information.
 
 yarn eject
@@ -56,3 +60,6 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 yarn build fails to minify
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+Collaborators:
+Meysam , Hakob , Chris , Cathrine
