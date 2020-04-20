@@ -1,12 +1,7 @@
 {
-  "name": "hak",
-  "version": "0.1.0",
+  "name": "project3-new",
+  "version": "1.0.0",
   "description": "An example package to demonstrate Yarn",
-  "private": true,
-  "engines": {
-    "npm": "5.7.1",
-    "node": "9.5.0"
-  },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.27",
     "@fortawesome/free-brands-svg-icons": "^5.12.1",
@@ -49,13 +44,21 @@
     "uuid": "^3.3.2"
   },
   "scripts": {
+    "type": "git",
+    "url": "git+https://github.com/meysamcoding/project3-new.git",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test  --env=jsdom",
     "eject": "react-scripts eject",
     "api": "nodemon ./server/server.js",
-    "dev": "concurrently \"react-scripts start\" \"nodemon ../server/server.js\"",
-    "server": "nodemon ../server/server.js"
+    "dev": "concurrently \"react-scripts start\" \"nodemon ./server/server.js\"",
+    "server": "nodemon ./server/server.js",
+    "homepage": "/ReactPart"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meysamcoding/project3-new/issues"
   },
   "devDependencies": {
     "concurrently": "^3.5.1",
@@ -76,5 +79,6 @@
       "last 1 safari version"
     ]
   },
+  "homepage": "https://github.com/meysamcoding/project3-new#readme",
   "proxy": "http://localhost:3000"
 }
