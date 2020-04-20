@@ -1,5 +1,9 @@
 # project3-new "Dream Story Agency"
 
+![](Capture.PNG)
+
+<br>
+
 This project was bootstrapped with Create React App and created for Dream Story Agency which is a website for a photographer. Using react, our team created this application for the client so that they may be able to display their work and provide additional services for anyone who wishes to find a photographer. To run the application, type 'npm run start' in the terminal. The client will have a separate command line since they will be taking care of any administration.
 
 Available Scripts
